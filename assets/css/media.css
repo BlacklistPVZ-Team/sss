@@ -1,0 +1,141 @@
+@media (max-width: 1026px) {
+    .lawyer-name h1 { font-size: 26px; }
+    .lawyer-title p { font-size: 48px; width: 350px; }
+    .lawyer-disc p { font-size: 26px; width: 400px; }
+    .lawyer-disc2 p { font-size: 36px; }
+    .lawyer-button { gap: 25px; }
+    .lawyer-button-ins button, .lawyer-button-ws button, .lawyer-button-tg button { padding: 5px 10px; }
+    .reviews-stars img { width: 200px; height: 29.79px; }
+    .lawyer-image img { width: 550px; height: 366.99px; }
+    .lawyer-container { margin-top: 30px; }
+    .help-containet-advokat { height: 200px; margin-top: 70px; }
+    .help-containet-advokat p { font-size: 48px; }
+    .advokat-title p { font-size: 36px; width: 820px; margin-top: 70px; }
+    .advokat-image img, .advokat-image { width: 380px; height: 686.04px; }
+    .advokat-disc p { font-size: 26px; width: 620px; }
+    .services-title p { font-size: 36px; margin-top: 70px; }
+    .services-block { width: 400px; height: 160px; }
+    .services-block p { font-size: 28px; }
+    .practice-container { gap: 0; margin-top: 70px; }
+    .practice-title p { font-size: 36px; width: 600px; }
+    .practice-disc p { font-size: 32px; width: 550px; }
+    .practice-button button { padding: 15px 10px; }
+    .swiper-title p { font-size: 36px; }
+    .swiper-stars { width: 200px; height: 29.79px; }
+    .swiper-name p { font-size: 32px; }
+    .mySwiper { margin-top: 70px; height: 300px; }
+    .footer-grafic p, .footer-num p, .footer-menu1 p { font-size: 28px; }
+    .footer-job p, .footer-address p, .footer-inn p { font-size: 22px; }
+}
+
+@media (max-width: 769px) {
+    .lawyer-name h1 { font-size: 22px; }
+    .lawyer-title p { font-size: 42px; width: 300px; margin-bottom: 20px; }
+    .lawyer-disc p { font-size: 22px; width: 400px; }
+    .lawyer-disc2 p { font-size: 32px; }
+    .lawyer-button { gap: 25px; flex-wrap: wrap; }
+    .lawyer-button-ins button, .lawyer-button-ws button, .lawyer-button-tg button { padding: 5px 10px; font-size: 22px; }
+    .lawyer-title-disc-disc2-button-reviews { margin-left: 15px; }
+    .reviews-stars img { width: 170px; height: 25.32px; }
+    .reviews-disc { font-size: 16px; }
+    .reviews-wall { height: 40px; }
+    .lawyer-image img { width: 330px; height: 220.34px; }
+    .lawyer-container { margin-top: 30px; }
+    .help-containet-advokat { height: 150px; margin-top: 50px; }
+    .help-containet-advokat p { font-size: 32px; width: 500px; }
+    .advokat-title p { font-size: 32px; width: 750px; margin-top: 50px; }
+    .advokat-image img, .advokat-image { width: 300px; height: 541.94px; }
+    .advokat-disc p { font-size: 18px; width: 400px; }
+    .services-title p { font-size: 32px; margin-top: 50px; }
+    .services-block { width: 300px; height: 120px; }
+    .services-block p { font-size: 24px; }
+    .practice-container { gap: 0; margin-top: 50px; }
+    .practice-title p { font-size: 30px; width: 400px; }
+    .practice-disc p { font-size: 26px; width: 400px; }
+    .practice-button button { padding: 10px 10px; font-size: 32px; }
+    .swiper-title p { font-size: 32px; width: 700px; }
+    .swiper-stars { width: 170px; height: 25.32px; }
+    .swiper-name p { font-size: 26px; width: 700px; }
+    .mySwiper { margin-top: 50px; height: 280px; }
+    .footer-grafic p, .footer-num p, .footer-menu1 p { font-size: 26px; }
+    .footer-job p, .footer-address p, .footer-inn p { font-size: 20px; }
+}
+
+@media (max-width: 426px) {
+    .lawyer-name h1 { font-size: 16px; margin-left: 30px; }
+    .lawyer-title p { font-size: 36px; width: 250px; margin-bottom: 20px; }
+    .lawyer-disc p { font-size: 16px; width: 300px; }
+    .lawyer-disc2 p { font-size: 26px; }
+    .lawyer-button { gap: 25px; flex-wrap: wrap; }
+    .lawyer-button-ins button, .lawyer-button-ws button, .lawyer-button-tg button { padding: 5px 10px; font-size: 16px; }
+    .lawyer-title-disc-disc2-button-reviews { margin-left: 15px; }
+    .reviews-stars img { width: 100.71px; height: 15px; }
+    .reviews-disc { font-size: 12px; width: 62px; }
+    .reviews-wall { height: 20px; }
+    .lawyer-title, .lawyer-disc, .lawyer-disc2, .lawyer-disc2 p { width: max-content; }
+    .lawyer-image img { margin-top: 30px; width: 330px; height: 220.34px; border-radius: 25px; }
+    .lawyer-container { margin-top: 30px; flex-wrap: wrap; justify-content: center; }
+    .help-containet-advokat { height: 150px; margin-top: 30px; }
+    .help-containet-advokat p { font-size: 26px; width: 500px; }
+    .advokat-title p { font-size: 22px; width: 25   0px; margin-top: 30px; }
+    .advokat-container { flex-wrap: wrap; justify-content: center; }
+    .advokat-image img, .advokat-image { width: 300px; height: 541.16px; border-radius: 25px; }
+    .advokat-disc p { font-size: 16px; width: 350px; }
+    .services-title p { font-size: 26px; margin-top: 30px; }
+    .services-block { width: 350px; height: 100px; }
+    .services-blocks:last-child { margin-top: 20px; }
+    .services-block p { font-size: 22px; }
+    .services-blocks { flex-wrap: wrap; gap: 20px; }
+    .practice-container { gap: 0; margin-top: 30px; flex-wrap: wrap; }
+    .practice-title p { font-size: 26px; width: 350px; }
+    .practice-disc p { font-size: 22px; width: 350px; }
+    .practice-button button { margin-top: 15px; padding: 10px 10px; font-size: 32px; }
+    .swiper-title p { font-size: 16px; width: 300px; }
+    .swiper-stars { width: 100.71px; height: 15px; }
+    .swiper-name p { font-size: 14px; width: 350px; }
+    .mySwiper { margin-top: 30px; height: 200px; }
+    .footer-grafic p, .footer-num p{ font-size: 18px; width: 200px; }
+    .footer-menu1 p{width: max-content; font-size: 18px;}
+    .footer-job p, .footer-address p, .footer-inn p { font-size: 16px; width: 200px; }
+    .footer-container { flex-wrap: wrap; justify-content: space-around; }
+    .footer-grafic, .footer-job, .footer-num, .footer-address, .footer-inn{ width: 200px;}
+}
+
+@media (max-width: 321px) {
+    .lawyer-name h1 { font-size: 1px; margin-left: 30px; margin: 0 auto; }
+    .lawyer-title p { font-size: 2px; width: 200px; margin-bottom: 20px; }
+    .lawyer-disc p { font-size: 16px; width: 300px; }
+    .lawyer-disc2 p { font-size: 26px; }
+    .lawyer-button { gap: 25px; flex-wrap: wrap; }
+    .lawyer-button-ins button, .lawyer-button-ws button, .lawyer-button-tg button { padding: 5px 10px; font-size: 16px; }
+    .lawyer-title-disc-disc2-button-reviews { margin-left: 15px; }
+    .reviews-stars img { width: 100.71px; height: 15px; }
+    .reviews-disc { font-size: 12px; width: 62px; }
+    .reviews-wall { height: 20px; }
+    .lawyer-title, .lawyer-disc, .lawyer-disc2, .lawyer-disc2 p { width: max-content; }
+    .lawyer-image img { margin-top: 30px; width: 330px; height: 220.34px; border-radius: 25px; }
+    .lawyer-container { margin-top: 30px; flex-wrap: wrap; justify-content: center; }
+    .help-containet-advokat { height: 150px; margin-top: 30px; }
+    .help-containet-advokat p { font-size: 26px; width: 500px; }
+    .advokat-title p { font-size: 22px; width: 280px; margin-top: 30px; }
+    .advokat-container { flex-wrap: wrap; justify-content: center; }
+    .advokat-image img, .advokat-image { width: 300px; height: 541.16px; border-radius: 25px; }
+    .advokat-disc p { font-size: 16px; width: 350px; }
+    .services-title p { font-size: 26px; margin-top: 30px; }
+    .services-block { width: 350px; height: 100px; }
+    .services-blocks:last-child { margin-top: 20px; }
+    .services-block p { font-size: 22px; }
+    .services-blocks { flex-wrap: wrap; gap: 20px; }
+    .practice-container { gap: 0; margin-top: 30px; flex-wrap: wrap; }
+    .practice-title p { font-size: 26px; width: 350px; }
+    .practice-disc p { font-size: 22px; width: 350px; }
+    .practice-button button { margin-top: 15px; padding: 10px 10px; font-size: 32px; }
+    .swiper-title p { font-size: 16px; width: 300px; }
+    .swiper-stars { width: 100.71px; height: 15px; }
+    .swiper-name p { font-size: 14px; width: 350px; }
+    .mySwiper { margin-top: 30px; height: 200px; }
+    .footer-grafic p, .footer-num p, .footer-menu1 p { font-size: 18px; width: 200px; }
+    .footer-job p, .footer-address p, .footer-inn p { font-size: 16px; width: 200px; }
+    .footer-container { flex-wrap: wrap; justify-content: space-around; }
+    .footer-grafic, .footer-job, .footer-num, .footer-address, .footer-inn, .footer-menu1 { width: 200px; }
+}

@@ -1,0 +1,305 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    position: relative;
+    color: white;
+    overflow-x: hidden;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: url(../image/photo_2025-02-05_12-51-22.jpg) center/cover no-repeat;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    backdrop-filter: blur(10px);
+}
+
+header {
+    height: 100%;
+    width: 100%;
+}
+
+.lawyer-title-disc-disc2-button-reviews {
+    margin-left: 50px;
+}
+
+.lawyer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.lawyer-name h1 {
+    font-size: 40px;
+    font-weight: 900;
+    padding-top: 15px;
+    margin-left: 15px;
+}
+
+.lawyer-title p {
+    font-size: 64px;
+    font-weight: 900;
+    width: 420px;
+    line-height: 50px;
+    margin-bottom: 40px;
+}
+
+.lawyer-disc p {
+    font-size: 32px;
+    font-weight: 400;
+    width: 537px;
+}
+
+.lawyer-disc2 p {
+    font-size: 40px;
+    font-weight: 900;
+    width: 420px;
+    margin: 10px 0;
+}
+
+.lawyer-button {
+    display: flex;
+    gap: 30px;
+}
+
+.lawyer-button-tg button,
+.lawyer-button-ws button,
+.lawyer-button-ins button {
+    padding: 10px 15px;
+    font-size: 26px;
+    font-weight: 700;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.lawyer-button-tg button {
+    background-color: #2BA0D9;
+}
+
+.lawyer-button-ws button {
+    background-color: #2BB140;
+}
+
+.lawyer-button-ins button {
+    background-color: #C62A74;
+}
+
+.lawyer-reviews {
+    display: flex;
+    align-items: center;
+    margin-top: 35px;
+    gap: 30px;
+}
+
+.reviews-wall {
+    width: 1px;
+    height: 50px;
+    background-color: white;
+}
+
+.help-containet-advokat {
+    margin-top: 100px;
+    width: 100%;
+    height: 300px;
+    background-color: #E3B581;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.help-containet-advokat p {
+    text-align: center;
+    width: 850px;
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.advokat-title p {
+    font-size: 48px;
+    font-weight: 900;
+    width: 1079px;
+    text-align: center;
+    margin: 100px auto 50px;
+    text-decoration: none;
+}
+
+.advokat-blur {
+    background-color: rgba(255, 255, 255, 0.034);
+    width: 100%;
+}
+
+.advokat-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.advokat-disc p {
+    width: 952px;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.practice-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 100px 0 0 30px;
+}
+
+.practice-title p {
+    font-size: 40px;
+    font-weight: 700;
+    width: 750px;
+    margin-bottom: 15px;
+}
+
+.practice-disc p {
+    font-size: 36px;
+    font-weight: 400;
+    width: 750px;
+}
+
+.practice-button button {
+    color: white;
+    background-color: #E3B581;
+    padding: 20px 15px;
+    border: 0;
+    border-radius: 5px;
+    font-size: 40px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mySwiper {
+    margin-top: 100px;
+}
+
+.swiper {
+    width: 100%;
+    height: 350px;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #E3B581;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper-title p {
+    margin: 50px auto 0;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    width: 900px;
+}
+
+.swiper-stars {
+    margin: 20px auto;
+    width: 235px;
+    height: 35px;
+}
+
+.swiper-name p {
+    margin: 0 auto;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    width: 900px;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    color: white;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 90px 0;
+}
+
+.footer-menu1{
+    text-decoration: none;
+    color: white;
+}
+
+.footer-grafic p,
+.footer-num p,
+.footer-menu1 p {
+    font-size: 32px;
+    font-weight: 700;
+    width: 455px;
+}
+
+.footer-job p,
+.footer-address p,
+.footer-inn p {
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 20px;
+    width: 455px;
+}
+
+#footm p{
+    margin-top: 20px;
+}
+
+.services-title p {
+    margin-top: 100px;
+    font-size: 48px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+}
+
+.services-block {
+    width: 500px;
+    height: 200px;
+    border: 3px solid #E3B581;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.services-block p {
+    font-size: 32px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.services-blocks {
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.services-blocks:last-child {
+    margin-top: 60px;
+}
